@@ -23,11 +23,13 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         setValue(for: redLabel, greenLabel, blueLabel)
-        
+        setColor()
     }
     
    // MARK: - @IBAction
-    @IBAction func setValue(for sender: UISlider) {
+    @IBAction func rgbSlider(_ sender: UISlider) {
+        setColor()
+        
         switch sender {
         case redSlider:
             setValue(for: redLabel)
@@ -41,8 +43,6 @@ class ViewController: UIViewController {
     
     // MARK: - Private methods
     private func setValue(for labels: UILabel...) {
-        setColor()
-        
         for label in labels {
             switch label {
             case redLabel:

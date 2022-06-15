@@ -60,8 +60,8 @@
 				AD3C886428551A4300371F40 /* SceneDelegate.swift */,
 				AD3C886628551A4300371F40 /* ViewController.swift */,
 				AD3C886828551A4300371F40 /* Main.storyboard */,
-				AD3C886B28551A4300371F40 /* Assets.xcassets */,
 				AD3C886D28551A4300371F40 /* LaunchScreen.storyboard */,
+				AD3C886B28551A4300371F40 /* Assets.xcassets */,
 				AD3C887028551A4300371F40 /* Info.plist */,
 			);
 			path = ColorizedApp;
